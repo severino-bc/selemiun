@@ -9,10 +9,6 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- *
- * @author adam
- */
 public class Attachments {
     
     private int fk_id;
