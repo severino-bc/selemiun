@@ -14,10 +14,10 @@ public class RoboExecucao {
 		driver = new FirefoxDriver();
 		//driver = new ChromeDriver();
 		
-		String endereco = "http://branch.moises.conam.com.br";
-		String modulo = "MDA - Módulo de Dívida Ativa";
-		String usuario = "conam";
-		String senha = "dfdfd";
+		String endereco = "http://";
+		String modulo = "Preencher caso exista select";
+		String usuario = "admin";
+		String senha = "**";
 		
 		umMetodo.setUp(endereco, driver);
 		umMetodo.maximiza(driver);
