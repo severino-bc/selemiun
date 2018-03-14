@@ -1183,5 +1183,13 @@ public class Selenium {
 		} 
 	}
 
+	public void ChamaCaminho(Selenium umMetodo, WebDriver driver, String menuPrincipal, String menuIntermidiario,
+			String menuFinal) {
+		int i;
+		String[] Caminho = { menuPrincipal, menuIntermidiario, menuFinal };
+		for (i = 0; i < 3; i++) {
+			umMetodo.click(driver, Caminho[i]);
+		}
+	}
 	
 }
